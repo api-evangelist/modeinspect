@@ -1,0 +1,25 @@
+generated: '2026-07-20'
+method: searched
+probe: true
+source: https://modeinspect.com/security
+url: https://modeinspect.com/security
+certifications:
+- SOC 2
+subprocessors:
+- E2B
+- Google Cloud Platform (EU region)
+- Anthropic
+- OpenAI
+notes: >-
+  Public security/trust page (last updated 2026-06-18) states "We are fully SOC2
+  compliant", least-privilege IAM with MFA/SSO/RBAC, KMS-based secret management,
+  and an encrypted code index (internal "DeepCode" engine). SLAs/NDAs offered to
+  Enterprise+ customers on request. A trust.modeinspect.com CNAME exists on
+  CloudFront but returns HTTP 403 (not a public trust portal); the verifiable
+  certification claim lives on the /security page cited above.
+evidence:
+- source: https://modeinspect.com/security
+  keywords:
+  - soc 2
+  - soc2
+  - fully soc2 compliant

@@ -1,8 +1,14 @@
 aid: modeinspect
 name: Modeinspect
-description: 'Modeinspect is a company surfaced as a portfolio company of partech and added to the API
-  Evangelist network as a stub for enrichment. Sector: Applicative SaaS. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Modeinspect (operated by Acreom Inc.) is an AI-native design tool that runs inside your
+  codebase. Branded "Mode", it turns a product's real code into editable canvas frames so
+  design engineers can shape production-grade UI on a visual canvas using the actual shipping
+  components, design tokens, live data, breakpoints, and interaction states, then explore
+  variants with AI and hand off pixel-perfect changes as a merge-ready pull request rather than
+  throwaway mockups. The product is in early access / private beta. Surfaced as a portfolio
+  company of Partech and profiled in the API Evangelist network; enriched 2026-07-20. No public
+  developer API, OpenAPI, docs portal, or SDK surface was found at this stage.
 url: https://raw.githubusercontent.com/api-evangelist/modeinspect/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +16,31 @@ x-backed-by:
 - partech
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://modeinspect.com/image/og/og-image.png
 tags:
 - Company
 - Applicative Saas
+- Design
+- Developer Tools
+- Design Engineering
+- AI
+- Design To Code
+- UI Design
+- Prototyping
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +50,36 @@ maintainers:
 common:
 - type: Website
   url: https://modeinspect.com/
+- type: About
+  url: https://modeinspect.com/about
+- type: Pricing
+  url: https://modeinspect.com/pricing
+- type: Blog
+  url: https://modeinspect.com/blog
+- type: SignUp
+  url: https://go.modeinspect.com/beta
+- type: Login
+  url: https://app.modeinspect.com
+- type: Support
+  name: Community
+  url: https://go.modeinspect.com/community
+- type: TermsOfService
+  url: https://modeinspect.com/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://modeinspect.com/privacy-policy
+- type: Compliance
+  name: Security & SOC 2 compliance
+  url: https://modeinspect.com/security
+- type: TrustCenter
+  url: security/modeinspect-trust-center.yml
+- type: DomainSecurity
+  url: security/modeinspect-domain-security.yml
+- type: Twitter
+  url: https://x.com/modeinspect
+- type: LinkedIn
+  url: https://www.linkedin.com/company/modeinspect
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
