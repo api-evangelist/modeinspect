@@ -1,0 +1,44 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://modeinspect.com/pricing
+sources:
+- https://modeinspect.com/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: per-seat
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+  managed_tier: Pro
+published: true
+note: Three-tier SaaS pricing page; flat per-person Pro pricing, explicitly no token/usage metering; enterprise
+  tier custom.
+plan_count: 3
+currency: USD
+plans:
+- name: Hobby
+  price_text: $0 / month
+  price: 0
+  currency: USD
+  period: month
+  included_quota: The full canvas, connected to your codebase; Unlimited connected repositories; Monthly
+    agent limits for personal projects
+- name: Pro
+  price_text: $20 / month
+  price: 20
+  currency: USD
+  period: month
+  unit: per person
+  included_quota: Extended agent limits for daily work; Merge-ready PRs; Design QA; Priority support
+- name: Teams & enterprises
+  price_text: Custom
+  period: none
+  included_quota: Everything in Pro; SSO/SAML, SCIM & SOC 2 Type II; Centralized billing & dedicated contact
+rate_limit_statements:
+- Monthly agent limits for personal projects
+- Extended agent limits for daily work
