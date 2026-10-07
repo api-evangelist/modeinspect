@@ -69,6 +69,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: Plans
+  url: plans/modeinspect-plans-pricing.yml
 - url: https://modeinspect.com/blog/feed.xml
   type: BlogRSS
 - type: Website
