@@ -42,3 +42,33 @@ plans:
 rate_limit_statements:
 - Monthly agent limits for personal projects
 - Extended agent limits for daily work
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - free
+  - subscription
+  units: []
+  plans:
+  - name: Hobby
+    access: other
+    model: free
+    model_how: derived
+    units: []
+    periods:
+    - month
+  - name: Pro
+    access: other
+    model: subscription
+    model_how: derived
+    units:
+    - other
+    periods:
+    - month
+  - name: Teams & enterprises
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods:
+    - none
